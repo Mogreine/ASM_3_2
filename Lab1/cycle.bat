@@ -17,18 +17,22 @@ goto end
 
 :mlab1_err
 echo mlab1l wasn't compiled.
+notepad mlab1.asm
 goto end
 
 :mlab1l_err
 echo mlab1l wasn't compiled.
+notepad mlab1l.asm
 goto end
 
 :lib_err
 echo lib wasn't compiled.
+notepad lib.asm
 goto end
 
 :lab1_err
 echo lab1 wasn't compiled.
+notepad lab1.asm
 goto end
 
 :link_err
