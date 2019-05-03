@@ -12,6 +12,7 @@
 	Z2_STR DB 33 DUP('$')
 	Z_FORMULA DB "Z_FORMULA: f ? X - Y / 8 : X + Y / 8$"
 	F_EQ DB "f equation: x1x3x4 | x1!x2 | !x3!x4 | x2x4 | !x1x2!x4$"
+	Z_CHANGE DB "Z changes: z4 &= z3, z11 |= z13, z8 = !z9$"
 	PRINT_X DB "Enter X: $"
 	PRINT_Y DB "Enter Y: $"
 	PRINT_Z1 DB "Z1: $"
@@ -78,6 +79,8 @@ MAIN	PROC	FAR
 	LEA DX, Z_FORMULA
 	CALL PRINTLN
 	LEA DX, F_EQ
+	CALL PRINTLN
+	LEA DX, Z_CHANGE
 	CALL PRINTLN
 	
 	LEA DX, PRINT_X
