@@ -56,10 +56,11 @@ CHANGE_Z ENDP
 MAIN	PROC	FAR
 	PUSHAD
 	PUSH SI
+	; Cleaning all the variable in case the function has been already called.
 	MOV EAX, 0
 	MOV EBX, 0
 	MOV ECX, 0
-	MOV SI, 0
+	MOV SI, 0	
 	
 	LEA DX, NUMBER
 	MOV CX, 32
