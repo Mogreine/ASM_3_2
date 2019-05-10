@@ -1,5 +1,4 @@
 Type your string:
-10
-10
-The union of 2 string: y
+
+The union of 2 string: r
 
