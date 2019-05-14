@@ -1,0 +1,23 @@
+test:
+4
+25E0
+45654E23
+7555555E244
+4E0
+0 3
+
+expected result:
+21E0
+63E0
+
+
+test:
+3
+25E0
+1024E9
+1024E10
+1 2
+
+expected result:
+1024E10
+0E20
