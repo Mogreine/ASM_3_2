@@ -142,17 +142,6 @@ swap:
     
     popad
     ret
-    
-; takes number from ebx
-;check_sign:
-;    pushad
-;    mov [sign], 0
-;    cmp ebx, 0
-;    jge check_sign_end
-;    mov [sign], 1
-;check_sign_end:
-;    popad
-;    ret
 
 ; Implements buble sort
 sort_arr:
