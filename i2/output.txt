@@ -1,0 +1,15 @@
+Enter a string: 
+0 WTF
+1 is
+2 it
+3 really
+4 working
+5 or
+6 what?
+
+Enter the number of the words you want to be printed and their indices: 
+Result: 
+0 really
+1 it
+2 is
+3 WTF
