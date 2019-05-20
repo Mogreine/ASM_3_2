@@ -17,7 +17,7 @@ str3 db 'Result:', 0
 
 section .bss
 
-strucs_arr resd struc_size * 15
+strucs_arr resb struc_size * 15
 
 nums_number resd 1
 ind1 resd 1
